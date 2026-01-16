@@ -57,7 +57,14 @@ function App() {
               <input type="text" placeholder="example@elevenlabs.io"  className="px-4 py-2 font-medium text-neutral-600 rounded-2xl border border-neutral-200"/>
 
             </div>
-            <button className="mt-8 lg:mt-16 text-white font-medium rounded-4xl bg-neutral-500 w-fit px-4 py-2 self-end lg:self-start">Next</button>
+            <div className="flex justify-between items-center mt-8 lg:mt-16 gap-44">
+            <button className=" text-white font-medium rounded-4xl bg-neutral-500 w-fit px-4 py-2 self-end lg:self-start">Next</button>
+            <div className="hidden lg:flex w-full gap-3">
+              <div className="bg-black h-1 min-w-12 w-full rounded-full"></div>
+              <div className="bg-neutral-200 h-1 min-w-12 w-full rounded-full"></div>
+              <div className="bg-neutral-200 h-1 min-w-12 w-full rounded-full"></div>
+            </div>
+            </div>
           </div>
         </div>
       </div>
