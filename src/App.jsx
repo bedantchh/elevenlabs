@@ -3,7 +3,7 @@ import { Building2, Rocket, ShieldCheck, StarIcon } from "lucide-react";
 function App() {
   return (
     <>
-      <div className="min-h-screen flex flex-col lg:flex-row">
+      <div className="h-screen flex flex-col lg:flex-row">
         <div className="lg:w-1/2 flex  flex-col bg-[#1C1C1C] text-white p-6 lg:p-12">
           <h1 className="text-xl font-bold">llElevenLabs</h1>
           <div className="mt-12">
@@ -25,7 +25,7 @@ function App() {
             <p className="mt-8 lg:mt-16 text-neutral-500 text-sm font-medium">
               Trusted by 10,000+ leading businesses
             </p>
-            <div className="flex  gap-6 mt-12 overflow-hidden">
+            <div className="flex  gap-6 mt-12 overflow-x-hidden">
               <img width={"90px"} src="/cisco.png" alt="" />
               <img width={"90px"} src="/cisco.png" alt="" />
               <img width={"90px"} src="/cisco.png" alt="" />
